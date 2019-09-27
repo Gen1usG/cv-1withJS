@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="html"></div>
+    <div id="taichiWrapper">
+        <div id="taichi"></div>
+    </div>
+    <style id="style"></style>
+    <style>* {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        body::-webkit-scrollbar {
+            display: none;
+        }
+
+
+        #taichiWrapper {
+            position: fixed;
+            left: 50%;
+            top: 20px;
+        }
+
+        ::after,
+        ::before {
+            box-sizing: border-box;
+        }
+
+        #html {
+            max-height: 100vh;
+            word-break: break-all;
+            overflow: auto;
+            margin-left: 10px;
+            padding-top: 10px;
+        }
+
+        @media (max-width: 500px) {
+            #html {
+                height: 50vh;
+            }
+
+            #taichiWrapper {
+                position: relative;
+                top: 50px;
+            }
+        }</style>
+
+    <script src="/main.1f19ae8e.js"></script>
+</body>
+
+</html>
